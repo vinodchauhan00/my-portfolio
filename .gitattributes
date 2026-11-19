@@ -1,0 +1,9 @@
+# Let Git normalize line endings for text files
+* text=auto
+
+# Treat these as binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
