@@ -226,3 +226,18 @@ After `npm run build`, the Express server also serves `client/dist`, so one serv
 ⭐ If you like this project, give it a star.
 
 </div>
+$text = @"
+
+---
+
+## Contributing
+
+Suggestions and fixes are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for setup steps and pull request guidelines.
+
+---
+
+## Security
+
+If you find a security problem, please do not open a public issue. See [SECURITY.md](SECURITY.md) for how to report it privately.
+"@
+[System.IO.File]::AppendAllText("$PWD\README.md", $text, (New-Object System.Text.UTF8Encoding($false)))
