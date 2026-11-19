@@ -9,6 +9,7 @@ import Projects from '../components/Projects'
 import Certifications from '../components/Certifications'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import BackToTop from '../components/BackToTop'
 
 export default function Home({ theme, toggleTheme }) {
   // count one visit per browser session (backend is optional; failures are ignored)
@@ -31,6 +32,7 @@ export default function Home({ theme, toggleTheme }) {
         <Contact />
       </main>
       <Footer />
+      <BackToTop />
     </>
   )
 }
